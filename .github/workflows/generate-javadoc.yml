@@ -30,7 +30,7 @@ jobs:
       - name: Push Javadoc
         uses: cpina/github-action-push-to-another-repository@2ebe0cc15fc6a8e63c3658c119525bf1aead4418
         env:
-          API_TOKEN_GITHUB: ${{ github.token }}
+          API_TOKEN_GITHUB: ${{ secrets.API_PAT_GITHUB}}
         with:
           source-directory: Aliucord/build/docs/javadoc
           destination-github-username: sudo-nautilus
