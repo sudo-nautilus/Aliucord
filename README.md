@@ -43,7 +43,7 @@ Pine does not support `x86` or `x86_64` architectures, and thus Aliucord does no
 
 ### Supported Android version(s)
 
-- 7.0+ (SDK 24+)
+- 7.0+ (SDK 24+) – now, I'm gonna make it for 6.0+, I will **try** it
 
 ### Supported Discord version(s)
 
