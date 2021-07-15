@@ -33,7 +33,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_PAT_GITHUB }}
         with:
           source-directory: Aliucord/build/docs/javadoc
-          destination-github-username: Aliucord
+          destination-github-username: sudo-nautilus
           destination-repository-name: Javadoc
           user-email: actions@github.com
           user-name: GitHub Actions
